@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iteso.proyectoexamencliente.ActivityMain">
+    <item
+        android:id="@+id/action_technology"
+        android:orderInCategory="100"
+        android:title="Technology"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/action_electronics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Electronics"
+        />
+    <item
+        android:id="@+id/action_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Refresh"
+        />
+</menu>
